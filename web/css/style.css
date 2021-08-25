@@ -65,7 +65,7 @@ body {
 	position:relative;
 	padding: 3em;
 }
-.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"], .sub-main-w3 input[type="text"] {
+.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"], .sub-main-w3 input[type="text"], .sub-main-w3 input[type="tel"], .sub-main-w3 input[type="file"]{
     outline: none;
     font-size: 1em;
     border: none;
@@ -76,9 +76,13 @@ body {
     padding: 1em 0 1em 2em;
     letter-spacing: 1px;
     font-family: 'Philosopher', sans-serif;
+	background: transparent;
 }
-.sub-main-w3 input[type="password"]{
+.sub-main-w3 .Marge{
 	margin-top: 1.5em;
+}
+.sub-main-w3 .Me{
+	margin-top: 0rem;
 }
 .sub-main-w3 input[type="submit"] {
     color: #fff;

@@ -16,11 +16,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //web-fonts -->
 </head>
 <body>
-<div data-vide-bg="video/social2">
+<div style="background-image:url(3.jpg); background-repeat: no-repeat; background-size: 100%;">
 	<div class="center-container">
 		<!--header-->
 		<div class="header-w3l">
-			<h1 style="color: red;">Welcome in Programmation online</h1>
+			<h1 style="font-family: monospace; color:red;">Welcome in Programmation online</h1>
 		</div>
 		<!--//header-->
 		<!--main-->
@@ -30,14 +30,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="sub-main-w3">	
 				<form action="#" method="post">
-					<input placeholder="Nom" name="nom" type="text" required="">
+					<input placeholder="Nom complet" name="nom" type="text" required="">
+					<input placeholder="Nom compagnie" name="nom" type="text" required="">
+					<input placeholder="Contact" name="nom" type="tel" required="">
 					<input placeholder="E-mail" name="mail" type="email" required="">
-                    <input placeholder=" Répeté l'E-mail" name="mail2" type="email" required="">
-					<input  placeholder="Mot de passe" name="Password" type="password" required="">
-                    <input  placeholder="Répeter le Mot de passe" name="Password" type="password" required="">
+					<input  placeholder="Mot de passe" name="Password" type="password" required="" class="Me">
+                    <input  placeholder="Répeter le Mot de passe" name="Password" type="password" required="" class="Me">
+					<input type="file" placeholder="Logo" name="logo" required="" style="background: transparent;">
 					
-					
-					<input type="submit" value="Connecter">
+					<input type="submit" value="S'inscrit">
 				</form>
 			</div>
 		</div>
