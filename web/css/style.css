@@ -506,3 +506,479 @@ span.check-w3 {
 	}
 }
 /*--//responsive--*/
+/*--//----------------------------Partie Accueil------------------------------------------*/
+#Over:hover{
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	transition: ease-out 0.2s;
+	border: 2px solid rgba(255,255,255,0.8);
+	-webkit-transition: ease-out 0.2s;
+}
+#Over {
+	transition: linear 0.25s;
+}
+.circle {
+	line-height: 0;		/* remove line-height */ 
+	display: inline-block;	/* circle wraps image */
+	margin: 5px;
+  border: 2px solid rgba(255,255,255,0.4);
+	border-radius: 50%;	
+transition: linear 0.25s;
+  height: 32px;
+  width: 32px;
+}
+.circle img {
+	border-radius: 50%;	
+}
+.circle:hover {
+	transition: ease-out 0.2s;
+  border: 2px solid rgba(255,255,255,0.8);
+  -webkit-transition: ease-out 0.2s;
+}
+header {
+    background-color: var(--danger);
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 90px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+  }
+  p.s-log {
+    color: #ffcc33;
+line-height: 1px;
+text-align: right;
+font-weight: 600;
+letter-spacing: 4px;
+margin-top: -11px;
+font-size: 0.3em;
+}
+h1 span {
+  color: #00acee;
+  font-size: 1.8em;
+}
+.navContent h1 {
+  font-size: 2em;
+  display: block;
+  text-transform: uppercase;
+}
+.navContent h1 a {
+  color: black;
+text-decoration: none;
+display: inline-block;
+line-height: 61px;
+font-weight: bold;
+padding-bottom: 5px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.w3l-banner {
+    
+    z-index: 0;
+    position: relative;
+    display: grid;
+    align-items: center;
+    background-size: cover;
+    -ms-background-size: cover;
+    background-image: url(../2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 630px;
+    
+  }
+  
+  .bannerw3-content {
+    max-width: 700px;
+  }
+  
+  .w3l-banner h3.title {
+    font-size: 58px;
+    line-height: 68px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .w3l-banner h3.title span {
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-family: monospace;
+    color: red;
+    text-transform: uppercase;
+  }
+  
+  .w3l-banner p.sample a {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+  
+  span.title-small {
+    color: var(--orange);
+    font-size: 50px;
+    font-family: cursive;
+    line-height: 25px;
+  }
+  
+  .bannerw3-content p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    
+  }
+  .Card{
+    margin-top: 0px;
+  }
+  .card-body{
+    background-image: url(banner.jpg);
+  }
+.transition{
+  text-align: center;
+  width: 100%;
+  background-color: #00acee;;
+  padding-top: 10px;
+  
+}
+
+.transition h1 a{
+  color: white;
+text-decoration: none;
+display: inline-block;
+line-height: 61px;
+font-weight: bold;
+padding-bottom: 5px;
+font-family: 'Open Sans', sans-serif;
+}
+.card-title{
+  font-family: "Liberation Mono";
+  text-transform:initial;
+  color: red;;
+  font-weight: bold;
+}
+.card-text{
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.Titr-con{
+  font-size:42px; 
+  color: #00acee; 
+  text-align: center;
+  font-weight: bold; 
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+
+
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+
+.d-grid {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button,
+.btn,
+select {
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Section top bottom gap */
+.section-gap {
+  padding: 4.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+/* / Section top bottom gap */
+
+/* title-styling */
+h3.global-title {
+  font-size: 40px;
+  line-height: 45px;
+  color: #16191e;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+/* / title-styling */
+
+
+/* contact1 */
+  .margin-up {
+    margin-top: 2.5rem;
+  }
+
+  h4.sub-title {
+    font-size: 16px;
+    margin: 0;
+    color: #ff4c4c;
+    font-weight: normal;
+  }
+
+  .contact-view {
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 30px;
+  }
+
+  .cont-top {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-column-gap: 20px;
+  }
+
+  .twice {
+    margin-bottom: 20px;
+  }
+
+  .cont-details span.fa {
+    font-size: 22px;
+    color: #ff4c4c;
+    display: block;
+    margin-top: 3px;
+  }
+
+  .cont-details h6 {
+    font-size: 20px;
+    color: #051b35;
+    font-weight: 600;
+  }
+
+  .cont-details p,
+  .cont-details p a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 3px;
+  }
+
+  .cont-details p a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    color: #051b35;
+  }
+
+  .cont-details address {
+    margin: 25px 0;
+  }
+
+  .cont-details address p {
+    margin: 5px 0;
+  }
+
+  .twice-two {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+
+  .map-content-9 form input,
+  .map-content-9 form textarea {
+    background: #f8f9fa;
+    border: 2px solid rgba(216, 216, 216, 0.3);
+    color: #777;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 4px;
+    height: 55px;
+  }
+
+  .map-content-9 h5 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .map-content-9 form textarea {
+    resize: none;
+    min-height: 140px;
+  }
+
+  .map-content-9 form input:focus,
+  .map-content-9 form textarea:focus {
+    outline: none;
+    border: 2px solid #051b35;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  button.btn-contact {
+    border: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin: 20px auto 0;
+    color: #fff;
+    background: #ff4c4c;
+    border-color: #ff4c4c;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+
+  .cont-details h6 a {
+    color: #051b35;
+  }
+
+  /* contact1-responsive */
+  @media(max-width: 992px) {
+
+    .cont-details p,
+    .cont-details p a {
+      font-size: 16px;
+    }
+
+    .cont-details h5 {
+      font-size: 32px;
+      line-height: 35px;
+    }
+
+    .contact-view {
+      grid-template-columns: 1fr;
+    }
+
+    .map-content-9 {
+      margin-top: 40px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .twice-two {
+      grid-template-columns: 1fr;
+    }
+
+    button.btn-contact {
+      width: 100%;
+    }
+  }
+  /* / contact1-responsive */
+  /* /contact1 */
+  @media screen and (max-width: 560px){
+    .navContent h1 {
+      font-size: 1.5em;
+      display: block;
+      text-transform: uppercase;
+    }
+    .Titr-con {
+      font-size: 30px;
+    }
+  }
+  .footer-w3l{
+      height: 50px;
+    background-color: black;
+  }
+  .footer-w3l p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:70%;
+    margin:0 auto;
+    text-align:center;
+    font-size:12px;
+    color:white;
+    letter-spacing:1px;
+    font-family: monospace;
+  }
+  .footer-w3l p a{
+    color:#fff;
+  }
+ 
