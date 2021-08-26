@@ -580,7 +580,6 @@ font-family: 'Open Sans', sans-serif;
     align-items: center;
     background-size: cover;
     -ms-background-size: cover;
-    background-image: url(../2.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
