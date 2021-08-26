@@ -505,8 +505,8 @@ span.check-w3 {
 		padding: .5em 2.5em;
 	}
 }
-/*--//responsive--*/
-/*--//----------------------------Partie Accueil------------------------------------------*/
+/*--//responsive-- Css-----------------------------*/
+/*--//----------------------------Page Accueil------------------------------------------*/
 #Over:hover{
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px black;
@@ -592,6 +592,7 @@ font-family: 'Open Sans', sans-serif;
     max-width: 700px;
   }
   
+ 
   .w3l-banner h3.title {
     font-size: 58px;
     line-height: 68px;
@@ -950,6 +951,17 @@ h3.global-title {
     button.btn-contact {
       width: 100%;
     }
+  }
+  #about .about{
+   
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    
+  }
+  .sous-about{
+    text-align: center;
   }
   /* / contact1-responsive */
   /* /contact1 */
