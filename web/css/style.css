@@ -992,4 +992,265 @@ h3.global-title {
   .footer-w3l p a{
     color:#fff;
   }
+ /*********************************  Profile  ***********************************/
+ .tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: rgb(24, 1, 24);
+  width: 30%;
+  height: 300px;
+  transition: transform .2s;
+}
+.tab:hover {
+  transform: scale(1.1);
+}
+table{
+  height: 100%;
+  width: 100%;
+}
+.tabcontent {
+  background: whitesmoke;
+  padding: 5px 0;
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+.profile
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+.image {
+  line-height: 0;		/* remove line-height */ 
+	display: inline-block;	/* circle wraps image */
+	margin: 7px;
+  border: 2px solid rgba(255,255,255,0.4);
+	border-radius: 50%;	
+transition: linear 0.25s;
+  height: 50%;
+  width: 50%;
+}
+
+.image img {
+	border-radius: 50%;	
+}
+/*--main-content--*/
+.profile h1 {
+    color: rgb(24, 1, 24);
+    font-size: 40px;
+    letter-spacing: 4px;
+    word-spacing: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+.main-agileits {
  
+  padding: 30px 45px;
+  margin: 0 auto;
+}
+.tabcontent .label{
+  font-size: 20px;
+  color: rgb(24, 1, 24);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+.tabcontent .Value{
+  font-size: 14px;
+  color: black;
+  font-weight:800;
+  font-family: sans-serif;
+  
+}
+.button a {
+  font-size: 17px;
+padding: 8px 32px;
+display: inline-block;
+background: #00acee;;
+border: 2px solid #00acee;
+color: #fff;
+outline: none;
+text-decoration: none;
+}
+option{
+  color: white;
+}
+.col-sm-3 .card-text{
+  font-weight: normal;
+  font-family: Georgia;
+}
+@media (max-width: 700px){
+  .tabcontent {
+    float: none;
+    width: 100%;
+  }
+  .tab {
+    float: none;
+    width: 100%;
+    height: 300px;
+  }
+  .profile h1 {
+    color: rgb(24, 1, 24);
+    font-size: 25px;
+   
+}
+  .tabcontent .label{
+    font-size: 15px;
+    
+  
+  }
+  .tabcontent .Value{
+    font-size: 10px;
+  }
+  .table thead {
+  display: none;
+  }
+
+  .table tr{
+  display: block;
+ 
+  }
+
+  .table td {
+  display: block;
+
+  }
+
+  .table td:before {
+  content: attr(data-label);
+  float: left;
+  font-weight: bold;
+  }
+  }
+
+  /*********************************Page Code**************************************/
+  
+  .control-panel{
+    margin: 5px auto;
+    float: right;
+    width: 50%;
+    background: lightgray;
+    text-align: right;
+    padding: 4px;
+    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+
+}
+.languages{
+    background: white;
+    border: 1px solid gray;
+}
+.description{
+  border-radius: 5px;
+  border: 2px solid black;
+  float: left;
+  width: 47%;
+  margin-left: 10px;
+  min-height: 446px;
+  background-color: lightgray;
+  box-shadow: 5px 5px 10px  rgb(24, 1, 24);
+}
+#editor{
+  
+    float: right;
+    min-width: 50%;
+    min-height: 400px;
+    background-color: black;
+}
+.text-container{
+  border: 2px solid rgb(24, 1, 24);
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.btn{
+    background: #57a958;
+    padding: 8px;
+    color: white;
+    border: 0;
+}
+.button-container{
+    text-align: right;
+    padding: 4px;
+}
+.output{
+    padding: 4px;
+    border: 2px solid gray;
+    min-height: 100px;
+    width: 95%;
+    resize: none;
+    background-color: gray;
+}
+.console{
+  float: right; 
+  width: 50%; 
+  margin-right: 10px; 
+}
+
+.download-fab {
+    cursor: pointer;
+    position: absolute;
+  
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: #2979ff;
+    box-shadow: var(--shadow-elevation-1);
+    transition: background-color 100ms ease, box-shadow 100ms ease;
+  }
+  
+.download-fab:hover {
+    background-color: #3580fd;
+    box-shadow: var(--shadow-elevation-2);
+  }
+ 
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid rgb(24, 1, 24); /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .editor{
+     
+    float: none;
+    width: 100%;
+  
+  }
+  .client{
+      float: none;
+      min-width: 100%;
+     
+  }
+  @media (max-width: 700px) {
+    .description{
+     
+      float: none;
+      width: 100%;
+    
+    }
+    #editor{
+        float: none;
+        min-width: 100%;
+       
+    }
+    .console{
+      float:  none; 
+      width: 100%; 
+      
+    }
+  }
