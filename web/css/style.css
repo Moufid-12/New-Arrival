@@ -1058,7 +1058,7 @@ transition: linear 0.25s;
   text-transform: uppercase;
   font-weight: bold;
   font-family: monospace;
-
+  
 }
 .tabcontent .Value{
   font-size: 14px;
@@ -1254,3 +1254,119 @@ option{
       
     }
   }
+  /************************************************** Partie Liste des challenges ***************/
+.leau{
+  float: left;
+  border: 1px solid #ccc;
+  background-color: black;
+  width: 40%;
+  height: 200px;
+  transition: transform .2s;
+}
+.e{
+  background: rgba(0, 0, 0, 0.62);
+  padding: 5px 0;
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 60%;
+  border-left: none;
+  height: 200px;
+}
+.tabcontent .ch{
+  font-size: 20px;
+  color: #00acee;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+  
+}
+.challenge{
+  min-height: 480px;
+}
+@media ( max-width: 700px){
+  .leau{
+    float: none;
+    width: 100%;
+  
+  }
+  .e{
+   
+    width: 100%;
+   float: none;
+    height: 100px;
+  }
+  .table .tr{
+    display: flex;
+    }
+    .table .ch{
+    display: block;
+  
+    }
+    .tabcontent .ch{
+      font-size: 20px;
+    }
+    .tabcontent .value{
+      font-size: 15px; 
+    }
+    .profile .h1 {
+      color: rgb(24, 1, 24);
+      font-size: 15px;
+      letter-spacing: 0px;
+      word-spacing: 0px;
+     
+  }
+}
+/*-----------------------------------Partie New Test----------------------------*/
+.NewTest .row{
+  background-color: rgba(116, 113, 113, 0.62);
+}
+.labels{
+  color: rgb(24, 1, 24);
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+.column input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+.column input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.column input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
